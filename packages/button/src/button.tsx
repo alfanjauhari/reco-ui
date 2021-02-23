@@ -1,5 +1,5 @@
-import { forwardRef, HTMLAttributes } from "react";
-import styled from "styled-components";
+import React, { forwardRef, HTMLAttributes } from 'react';
+import styled from 'styled-components';
 import {
   SpaceProps,
   ColorProps,
@@ -24,8 +24,8 @@ import {
   border,
   zIndex,
   boxShadow,
-  buttonStyle,
-} from "styled-system";
+  buttonStyle
+} from 'styled-system';
 
 export type BaseButtonProps = SpaceProps &
   ColorProps &
@@ -40,9 +40,8 @@ export type BaseButtonProps = SpaceProps &
   BoxShadowProps &
   ButtonStyleProps;
 
-export interface ButtonProps
-  extends Omit<BaseButtonProps, "color">,
-    HTMLAttributes<HTMLButtonElement> {}
+export type ButtonProps = Omit<BaseButtonProps, 'color'> &
+  HTMLAttributes<HTMLButtonElement>;
 
 export const StyledButton = styled.button<ButtonProps>`
   ${space}
@@ -60,9 +59,11 @@ export const StyledButton = styled.button<ButtonProps>`
 `;
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ children, ...props }, ref) => (
-    <StyledButton {...props} ref={ref}>
-      {children}
-    </StyledButton>
-  )
+  ({ children, ...props }, ref) => {
+    return (
+      <StyledButton {...props} ref={ref}>
+        {children}
+      </StyledButton>
+    );
+  }
 );

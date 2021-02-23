@@ -1,9 +1,9 @@
 {
-  "name": "@reco-ui/core",
-  "version": "0.0.2",
+  "name": "@reco-ui/css-reset",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Alfan Jauhari <hi.alfanj@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/alfanjauhari/reco-ui#readme",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -39,7 +39,7 @@
     "styled-components": "^5.2.1"
   },
   "dependencies": {
-    "@reco-ui/button": "^0.0.2",
-    "@reco-ui/provider": "^0.0.1"
+    "@types/styled-components": "^5.1.7",
+    "styled-components": "^5.2.1"
   }
 }
