@@ -1,6 +1,6 @@
 {
   "name": "@reco-ui/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Alfan Jauhari <hi.alfanj@gmail.com>",
   "homepage": "",
@@ -40,8 +40,8 @@
   },
   "dependencies": {
     "@reco-ui/button": "^0.0.3",
+    "@reco-ui/css-reset": "^0.0.2",
     "@reco-ui/provider": "^0.0.2",
-    "@reco-ui/theme": "^0.0.2",
-    "@reco-ui/css-reset": "^0.0.2"
+    "@reco-ui/theme": "^0.0.2"
   }
 }
