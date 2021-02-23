@@ -6,11 +6,7 @@
   "command": {
     "publish": {
       "yes": true,
-      "message": "chore(release): publish",
       "access": "public"
-    },
-    "version": {
-      "message": "chore(release): publish %s"
     }
   }
 }
