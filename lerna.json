@@ -6,7 +6,8 @@
   "command": {
     "publish": {
       "yes": true,
-      "access": "public"
+      "access": "public",
+      "ignoreChanges": ["**/stories/**", "**/tests/**"]
     }
   }
 }
