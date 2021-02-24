@@ -41,6 +41,8 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error'],
     'react/prop-types': 'off',
     'comma-dangle': ['error', 'never'],
-    'import/no-extraneous-dependencies': 'off'
+    'import/no-extraneous-dependencies': 'off',
+    'no-underscore-dangle': 'off',
+    'no-unneeded-ternary': 'off'
   }
 };

@@ -9,13 +9,8 @@ export type RecoProviderProps = {
 };
 
 export const RecoProvider = ({ children, theme }: RecoProviderProps) => {
-  const extendedTheme = {
-    ...defaultTheme,
-    ...theme
-  };
-
   return (
-    <ThemeProvider theme={extendedTheme}>
+    <ThemeProvider theme={theme ? theme : defaultTheme}>
       <CSSReset />
       {children}
     </ThemeProvider>
