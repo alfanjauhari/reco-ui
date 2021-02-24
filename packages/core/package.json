@@ -1,6 +1,6 @@
 {
   "name": "@reco-ui/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "Alfan Jauhari <hi.alfanj@gmail.com>",
   "homepage": "",
@@ -39,11 +39,11 @@
     "styled-components": "^5.2.1"
   },
   "dependencies": {
-    "@reco-ui/button": "^0.0.3",
+    "@reco-ui/button": "^0.0.4",
     "@reco-ui/css-reset": "^0.0.2",
-    "@reco-ui/provider": "^0.0.2",
-    "@reco-ui/system": "^0.0.1",
-    "@reco-ui/theme": "^0.0.2",
+    "@reco-ui/provider": "^0.0.3",
+    "@reco-ui/system": "^0.0.2",
+    "@reco-ui/theme": "^0.0.3",
     "@styled-system/css": "^5.1.5",
     "@types/styled-components": "^5.1.7",
     "@types/styled-system": "^5.1.10",

@@ -1,6 +1,6 @@
 {
   "name": "@reco-ui/provider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> TODO: description",
   "author": "Alfan Jauhari <hi.alfanj@gmail.com>",
   "homepage": "https://github.com/alfanjauhari/reco-ui#readme",
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@reco-ui/css-reset": "^0.0.2",
-    "@reco-ui/theme": "^0.0.2",
+    "@reco-ui/theme": "^0.0.3",
     "@types/styled-components": "^5.1.7",
     "styled-components": "^5.2.1"
   }

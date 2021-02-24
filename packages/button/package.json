@@ -1,6 +1,6 @@
 {
   "name": "@reco-ui/button",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Alfan Jauhari <hi.alfanj@gmail.com>",
   "homepage": "",
@@ -38,7 +38,7 @@
     "url": "https://github.com/alfanjauhari/reco-ui/issues"
   },
   "dependencies": {
-    "@reco-ui/system": "^0.0.1",
+    "@reco-ui/system": "^0.0.2",
     "@styled-system/css": "^5.1.5",
     "@types/styled-components": "^5.1.7",
     "@types/styled-system": "^5.1.10",
